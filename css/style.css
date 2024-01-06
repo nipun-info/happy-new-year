@@ -5,3 +5,38 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+header {
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 80vh;
+
+}
+
+.hero-content {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+.header-title {
+    margin: 20px 0;
+}
+
+.hero-description {
+    margin-bottom: 20px;
+}
+
+.btn-hero {
+    background: #F15B22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
