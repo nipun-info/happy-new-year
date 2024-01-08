@@ -11,14 +11,13 @@ header {
     background-size: cover;
     background-position: 50% 50%;
     height: 80vh;
-
 }
 
 .hero-content {
     position: absolute;
     width: 40%;
     right: 0;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-right: 40px;
 }
 
@@ -39,4 +38,301 @@ header {
     font-size: 17px;
     font-weight: 400;
     color: #fff;
+}
+
+
+.container {
+    width: 82.5%;
+    max-width: 1320;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Merriweather;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.primary-text {
+    color: #070211;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    margin-bottom: 20px;
+}
+
+/* discount section */
+.discounts {
+    margin-bottom: 80px;
+}
+
+.discount-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.discount-content span {
+    font-size: 20px;
+    color: #070211;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.discount-content span {
+    color: #f00;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Merriweather;
+    margin-bottom: 20px;
+}
+/*  
+.discounts .discount-images {
+    background: url("../resources/Rectangle\ 2.png") no-repeat;
+    background-position: bottom left;
+    height: 582px;
+    position: relative;
+}
+
+.discounts .discount-images .image-top {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.gift-box-image {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    left: 25px;
+    bottom: 100px;
+}
+
+.gift-box-image img {
+    width: 100%;
+}
+
+.discount-50 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: 250px;
+
+}
+
+.discount-50 img {
+    width: 100%;
+}
+
+
+
+.girls-pics {
+    max-width: 350px;
+    height: auto;
+}
+
+.girls-pics img {
+    width: 100%;
+}
+
+*/
+
+
+.discount-images {
+    background: url('../resources/Rectangle\ 2.png') no-repeat;
+    background-position: bottom left;
+    height: 550px;
+    position: relative;
+}
+
+.girls-pics {
+    width: 320px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.girls-pics img {
+    width: 100%;
+}
+
+.gift-box-image {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    bottom: 85px;
+    left: 15px;
+}
+
+.gift-box-image img {
+    width: 100%;
+}
+
+.discount-50 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 230px;
+    top: 60px;
+    z-index: 1;
+}
+
+.discount-50 img {
+    width: 100%;
+}
+
+/* Portfolio section */
+
+.portfolio {
+    margin-bottom: 60px;
+}
+
+.portfolio-content {
+    max-width: 480px;
+}
+
+.portfolio-content span {
+    font-size: 20px;
+    color: #f00;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.portfolio .portfolio-images-column {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.portfolio-images-column .portfolio-image {
+    width: 300px;
+    height: auto;
+}
+
+.portfolio-images-column .portfolio-image img {
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 1s;
+}
+
+.portfolio-images-column .portfolio-image:hover img {
+    transform: scale(1.1);
+}
+
+
+/* newsletter section */
+.newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.newsletter-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-content .email-icon {
+    margin-bottom: 38px;
+}
+
+
+
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.newsletter .contact input,
+.newsletter .contact button {
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.newsletter .contact input {
+    flex-grow: 1;
+    padding-left: 12px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.newsletter .contact button {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f00;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer section */
+
+.footer {
+    background-color: #070211;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.hr-line {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 50px;
+}
+
+.footer-top .footer-address {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-top .footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.footer-soical-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 0;
+}
+
+.footer-soical-links img {
+    width: 54px;
+    height: 54px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.footer-bottom p {
+    font-size: 20px;
 }
